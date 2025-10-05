@@ -1,0 +1,39 @@
+<!--*****************************************************************
+    程式名稱：index.html
+    程式簡介：借書作業
+    作者：萬丹國小  陳建宏
+    ***************************************************************** -->
+<html>
+<head>
+<title>班級借還書系統</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf8">
+<meta http-equiv="Content-Language" content="zh-tw">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link type="text/css" rel= "stylesheet" href="css/style.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="js/main.js"></script>
+<script src="js/bro.js"></script>
+</head>
+<body>
+<!-- 橫幅標題 -->
+<div id="Header">
+
+</div>
+
+<!-- 導覽列 -->
+<div>
+<ul id="Nav">
+</ul>
+</div>
+
+<!-- 網頁內容 -->
+<div id="content">
+<p style="text-align: center; font-size: 1.4em;">輸入人員代碼：
+<input id="stud_id" name="code_id" size="12"></p>
+<p style="text-align: center; font-size: 1.4em;" id="member"></p>
+<div style="text-align: center; font-size: 1.4em;" id="miss_book"></div>
+<p style="text-align: center; font-size: 1.4em;" id="book_name"></p>
+
+<script>$("#stud_id").focus();</script>
+</body>
+</html>
